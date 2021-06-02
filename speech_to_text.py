@@ -3,7 +3,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 
 # Todo (Zhao, 2021/06/01): Implement other cloud service (e.g. GCP, AZ, AWS)
-class IBMConvertor(object):
+class IBMConverter(object):
     def __init__(self, api_url, access_key, source):
         self.__api_url = api_url
         self.__access_key = access_key
